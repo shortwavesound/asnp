@@ -40,7 +40,7 @@ Metrostroi.AddANSPAnnouncer("[SWS RUS] Estintax",
 		{
 			LED = {4, 5, 5, 4, 4, 4, 4},
 			Name = "Малиновая линия",
-			spec_last = {"last"},
+			spec_last = {"laststop"},
 			spec_wait = {{"spec_attention_train_stop"}, {"spec_attention_train_depart"}},
 			Loop = false,
 			{
