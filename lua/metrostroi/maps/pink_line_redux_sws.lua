@@ -38,13 +38,13 @@ Metrostroi.AddANSPAnnouncer("[SWS RUS] Estintax",
 			{
 				101, "Первомайская",
 				arrlast = {nil, {"station", "pervomayskaya", "doors_right", "last", "lawwarning"}, "pervomayskaya"},
-				dep = {{"odz", "next", "zyablikovo", "right_doors", "spec_please"}, nil},
+				dep = {{"odz", "next", "zyablikovo", "doors_right", "spec_please"}, nil},
 				right_doors = true
 			},
 			{
 				102, "Зябликово",
 				arr = {{"station", "zyablikovo", "doors_right"},{"station", "zyablikovo", "doors_right"}},
-				dep = {{"odz", "next", "partizanskaya", "spec_handrail"}, {"odz", "next", "pervomayskaya", "right_doors", "spec_handrail"}},
+				dep = {{"odz", "next", "partizanskaya", "spec_handrail"}, {"odz", "next", "pervomayskaya", "doors_right", "spec_handrail"}},
 				right_doors = true
 			},
 			{
