@@ -56,7 +56,7 @@ Metrostroi.AddANSPAnnouncer("[SWS RUS] Estintax",
 			},
 			{
 				203, "Сибирская",
-				arr = {{"station", "siberian"}, {"station", "siberian"}},
+				arr = {{"station", "siberian"}, {"station", "siberian", "doors_left"}},
 				arrlast = {{"station", "siberian", "last", "spec_items2", "lawwarning"}, {"station", "siberian", "last", "spec_items2", "lawwarning"}, "siberian"},
 				dep = {{"odz", "next", "garina"}, {"odz", "next", "marshala"}},
 				not_last = {0.5, "train_goes_to", "siberian"},
